@@ -4,8 +4,8 @@
 
 Initially constructed with python version 3.9.7
 
-Used the following dependencies:
-flask
+Used the following dependencies:  
+flask  
 pycryptodome
 
 This code shows how to validate the HTTP signature included in the HTTP header sent to the client's webhook.
