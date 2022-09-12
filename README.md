@@ -8,6 +8,6 @@ Used the following dependencies:
 flask  
 pycryptodome
 
-To run the sample code, download the pem and add its path to the `config.py` configuration. 
-
+To run the sample code, download the pem and add its path to the `config.py` configuration.
+export FLASK_APP=app.py
 `flask run -h 0.0.0.0 -p 8889`
