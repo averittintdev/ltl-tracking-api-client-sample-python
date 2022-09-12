@@ -10,4 +10,4 @@ pycryptodome
 
 To run the sample code, download the pem and add its path to the `config.py` configuration. 
 
-`python server.py`
+`flask run -h 0.0.0.0 -p 8889`
