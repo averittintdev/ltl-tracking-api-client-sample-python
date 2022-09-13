@@ -4,12 +4,16 @@
 
 Initially constructed with python version 3.9.7
 
-Used the following dependencies:
-flask
+Used the following dependencies:  
+flask  
 pycryptodome
 
-This code shows how to validate the HTTP signature included in the HTTP header sent to the client's webhook.
+To run the sample code, download the pem and add its path to the `config.py` configuration.
 
-To run the sample code, download the pem and add it to the `config.py` configuration. 
+Set FLASK_APP environment variable
+export FLASK_APP=app.py
+or
+set FLASK_APP=app.py
 
-`python server.py`
+Execute the following ...
+`flask run -h 0.0.0.0 -p 8889`

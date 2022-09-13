@@ -1,1 +1,2 @@
-PEM_FILE_PATH = '/home/jason/software/temp/public_key_rsa_4096_pkcs8-exported.pem'
+PEM_FILE_PATH = '/home/webmanager/temp/push-pro-api-public-key.pem'
+FLASK_APP = 'app.py'
